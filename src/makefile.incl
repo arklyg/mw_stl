@@ -2,12 +2,12 @@
 MWSTL_MACRO = 
 
 #lib directory definations
-DIR_MWSTL_LIB = ~/WorkSpace/microwave/mw_stl/trunk/src/main
+DIR_MWSTL_LIB = $(PROJECT_SRC_PATH)/../../mw_stl/src/main
 
 #inc directory definations
 DIR_LOG4CPLUS_INC = /usr/local/include/log4cplus
-DIR_MWGLOBAL_INC = $(PROJECT_SRC_PATH)/../../../mw_global/trunk/src/main
-DIR_MWSTL_INC = $(PROJECT_SRC_PATH)../../../mw_stl/trunk/src/main
+DIR_MWGLOBAL_INC = $(PROJECT_SRC_PATH)/../../mw_global/src/main
+DIR_MWSTL_INC = $(PROJECT_SRC_PATH)/../../mw_stl/src/main
 
 #inc definations
 INC_LOG4CPLUS = -I $(DIR_LOG4CPLUS_INC)
