@@ -15,8 +15,8 @@ all:$(TARGET)
 $(TARGET):$(MAIN_OBJS)
 	$(AR) $@ $^
 
-%.o:%.cpp
-	$(CXX) $(CXXFLAGS) $(INC_MWSTL) $(MWSTL_MACRO) $(INC_MWMATH) $(INC_MWGLOBAL) $(INC_LOG4CPLUS) -c $< -o $@
+%.o:%.cc
+	$(CXX) $(CXXFLAGS) $(INC_MWSTL) $(MWSTL_MACRO) $(INC_MWGLOBAL) $(INC_LOG4CPLUS) -c $< -o $@
 
 clean:
 	$(RM) $(TARGET)
