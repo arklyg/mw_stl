@@ -18,7 +18,7 @@ INC_MWSTL = -I $(DIR_MWSTL_INC)
 DIR_MWSTL = $(PROJECT_SRC_PATH)
 
 #cxx flags
-CXXFLAGS = -Wall -g -ftemplate-depth-50
+CXXFLAGS = -Wall
 
 #files
 TEST_OBJS = $(patsubst %.cc, %.o, $(wildcard $(PROJECT_SRC_PATH)/test/*.cc))
